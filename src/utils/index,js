@@ -1,0 +1,11 @@
+// 把所有的工具函数导入在这里， 再统一导出
+
+import {setToken, getToken, removeToken } from './token'
+import {http} from  './http'
+ export {
+    http,
+    setToken,
+    getToken,
+    removeToken
+ }
+ 
